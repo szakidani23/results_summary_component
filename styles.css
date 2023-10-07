@@ -18,7 +18,8 @@ p {
 
 .container {
   height: auto;
-  margin-top:2rem;
+  padding: 10rem 22rem;
+  max-width:1400px;
 }
 
 .card-container {
@@ -29,7 +30,6 @@ p {
 
 .card__left,
 .card__right {
-  max-width:1440px;
   flex:1;
 }
 
@@ -42,10 +42,15 @@ p {
   .card {
     flex-direction: column;
   }
+  
   #card-right {
     border-radius: 0;
     margin-top:-1.5rem;
     padding: 3rem 6rem;
+  }
+
+  .container {
+    padding:0;
   }
 }
 
